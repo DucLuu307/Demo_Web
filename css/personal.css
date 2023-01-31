@@ -1,0 +1,105 @@
+.title-pages{
+    margin: 18px 0px;
+}
+.title-pages .title{
+    margin: 0;
+}
+.title-pages .title li{
+    display: inline-block; 
+}
+.title-pages .title span{
+    padding: 0 10px;
+}
+.title-pages .title li a{
+    color: #8d8c8c;
+}
+.title-pages .title li:last-child a,.title li a:hover{
+    color: #363f4d;
+}
+.layer-category .layer-module{
+    border: 1px solid #363f4d;
+    
+}
+.module-content .layer-heading{
+    padding: 20px 14px 0 14px;
+}
+.layer-category .layer-module .layer-heading h2{
+    font-size: 14px;
+    font-weight: 700;
+    padding-bottom: 18px;
+    border-bottom: 1px solid #363f4d;
+    margin-bottom: 0;
+}
+.layer-category .layer-module .layer-heading{
+    margin-bottom: 39px;
+}
+.layer-content .list-group {
+    margin-bottom: 39px;
+}
+.layer-content .list-group .list-group-items{
+    padding: 0 14px;
+}
+.layer-content label{
+    font-weight: 700;
+    margin-bottom: 7px;
+    padding: 0 14px;
+}
+.list-group .list-group-items a{
+    display: block;
+}
+.layer-content .list-group .list-group-items a{
+    color: #363f4d;
+    font-size: 13px;
+    padding: 14px 0px;
+    border-bottom: 1px solid #363f4d;
+}
+.layer-content .list-group .list-group-items a:hover{
+    color: #2e6ed5;
+}
+.layer-content .filter-price{
+    padding: 30px 0;
+    background-color: #f1f2f4;
+}
+.filter-price .slider-value{
+    padding: 0 18px;
+}
+.filter-price .list-price{
+    padding: 0 29px;
+    font-size: 14px;
+    
+}
+.list-price .input-price{
+    display: inline-block;
+    width: 50px;
+    background: none;
+    border: none;
+}
+.list-price span{
+    margin-left: 10px;
+}
+.list-price .input-price:hover{
+    cursor: not-allowed;
+}
+.custom-range {
+    height: 0px;
+    background: rgba(255, 255, 255, 0.6);
+    background-repeat: no-repeat;
+
+  }
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: 0 0 2px 0 #555;
+}
+input[type="range"]::-moz-slider-thumb {
+    -webkit-appearance: none;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background: red;
+    cursor: ew-resize;
+    box-shadow: 0 0 20px 0 #555;
+  }
